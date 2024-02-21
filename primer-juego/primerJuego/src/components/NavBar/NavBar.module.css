@@ -1,0 +1,17 @@
+.padre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(43, 43, 49);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+}

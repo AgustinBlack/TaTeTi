@@ -1,0 +1,27 @@
+.container{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(43, 43, 49);
+    border-radius: 5px;
+}
+
+.container:hover{
+    cursor: pointer;
+}
+
+.icon{
+    width: 75px;
+    margin: 2px 0 0 2px;
+}
+
+.notAllowed{
+    cursor: not-allowed;
+}
+
+.crossWon{
+    background-color: #D31638;
+}
+
+.circleWon{
+    background-color: #C5DFDF;
+}
