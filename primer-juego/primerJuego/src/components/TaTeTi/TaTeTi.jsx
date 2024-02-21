@@ -136,7 +136,7 @@ const TaTeTi = () => {
         const userName = result.value
         setPlayerName(userName)
 
-        const newSocket = io("http://localhost:3001/", {
+        const newSocket = io("http://localhost:3000/", {
             autoConnect: true
         });
 
